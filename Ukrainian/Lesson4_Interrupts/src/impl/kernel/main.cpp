@@ -11,7 +11,7 @@ void kernel_main() {
     print_str(msg);
 
     asm volatile (
-        "int $0x1\n\t"
+        "int $0x0\n\t"
         "hlt\n\t"
         "hlt\n\t"
     );
