@@ -5,7 +5,6 @@
 
 extern "C" {
 
-
 #include <stdint.h>
 
 struct IDTEntry {
